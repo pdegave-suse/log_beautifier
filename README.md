@@ -1,6 +1,6 @@
 # Rancher & RKE2 Audit Log beautifier/Parser
 
-This is a simple terminal tool (TUI) to make Rancher and RKE2 audit logs easier to read. Raw audit logs are usually just long lines of JSON that are hard to look through. This tool puts them into a clean table and beautifies the output.
+This is a simple terminal tool (TUI) to make Rancher and RKE2(WIP) audit logs easier to read. Raw audit logs are usually just long lines of JSON that are hard to look through. This tool puts them into a clean table and beautifies the output.
 
 ## Features
 
@@ -11,14 +11,15 @@ This is a simple terminal tool (TUI) to make Rancher and RKE2 audit logs easier 
 
 ## How to use it
 
-1. **Give it permission:** Open your terminal in the project folder and run:  
-   `chmod +x run.sh`
-
-2. **Run it:** Just type:  
+1. **Clone the project:** `git clone https://github.com/pdegave-suse/log_beautifier.git`
+2.  **Give it permission:** Open your terminal in the project folder and run:  
+   `cd log_beautifier`  `chmod +x run.sh`
+   
+4. **Run it:** Just type:  
    `./run.sh`  
    *(This will automatically set up the Python environment and install the two libraries needed: textual and rich.)*
 
-3. **Custom log file:** If you have a specific log file you want to check, run it like this:  
+5. **Custom log file:** If you have a specific log file you want to check, run it like this:  
    `./run.sh path/to/your/file.log`
 
 ## Controls
