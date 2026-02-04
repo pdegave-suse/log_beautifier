@@ -6,7 +6,7 @@ cd "$BASE_DIR"
 # Setup venv if missing
 if [ ! -d "venv" ]; then
     python3 -m venv venv
-    # Installing directly here is fine since you only have 2 dependencies
+    # Installing 2 dependencies with pip. check dependancies manually.
     source venv/bin/activate && pip install textual rich
 fi
 
