@@ -22,11 +22,14 @@
 
 ### 1. Filter/search for log :
 
- - eg: Filter logs with 500 status code : 
+ > Example: Filter logs with 500 status code : 
+
 
 <img width="1295" height="438" alt="image" src="https://github.com/user-attachments/assets/16977a4a-51e1-4d89-b81a-75ee16b707a9" />
 
 ### 2. View complete JSON : 
+
+ > Note: Select auditlog entry and press 'enter' or 'double click' to get the full JSON.
 
 <img width="1101" height="249" alt="image" src="https://github.com/user-attachments/assets/218aed31-f565-4390-859a-cc10caeaee3d" />
 
